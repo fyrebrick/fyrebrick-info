@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./app.js",
+    "docker": "docker build -t snakehead007/fyrebrick-info:latest . && docker push snakehead007/fyrebrick-info:latest"
   },
   "repository": {
     "type": "git",

@@ -3,10 +3,10 @@
  */
 
 .nav{
-  background-color: hsl(0deg 0% 18% / 84%);
   left: 0%;
   width: 100%;
 }
+
 .float-md-start{
   background-color: hsl(0deg 0% 18% / 84%);
   width: 100%;
@@ -14,6 +14,7 @@
   left: 0;
   top: 0;
 }
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover {
@@ -23,14 +24,62 @@
 .cover-container{
     z-index: 100;
 }
+
 #logo{
-    width:50%;
+  width: 50%;
+  padding-top: 20px;
+  max-width: 500px;
+  padding-bottom: 10px;
+}
+#view{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+@media (max-height: 567px){
+  #view{
+    top:60%;
+  }
+}
+
+@media (max-height:460px){
+  #view{
+    top:64%;
+  }
+}
+
+@media (max-width:567px){
+  #view{
+    width:100%;
+  }
+}
+
+@media (max-width:464px){
+  #logo{
+    width:60%;
+  }
+}
+
+@media (max-width:320px){
+  #logo{
+    width:70%;
+  }
+}
+
+@media (max-width:260px){
+  #logo{
+    width:80%;
+  }
 }
 
 .list-group-item{
   background-color: hsl(0deg 0% 21% / 32%);
   border: solid 2px rgb(31 31 31 / 90%);
 }
+
 /*
  * Base structure
  */
@@ -43,7 +92,6 @@ body {
 .cover-container {
   max-width: 42em;
 }
-
 
 /*
  * Header
