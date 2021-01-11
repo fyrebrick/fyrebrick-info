@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    text-align: center;
+    background-color: #5a5a5a;
+    padding: 14px;
+}
+header h1{
+    font-family: sans-serif;
+    color: #FFF;
+    backdrop-filter: blur(2px);
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+}
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

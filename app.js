@@ -19,6 +19,9 @@ app.set("view engine", "pug");
 app.get('/', (req, res) => {
   res.render('index');
 });
+app.get('/privacy-policy',(req,res)=>{
+  res.render('privacy-policy');
+})
 
 io.on('connection', (socket) => {
   console.log('a user connected');

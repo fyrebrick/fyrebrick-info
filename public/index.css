@@ -6,7 +6,9 @@
   left: 0%;
   width: 100%;
 }
-
+#privacyPolicy{
+  margin-left: 20px;
+}
 .float-md-start{
   background-color: hsl(0deg 0% 18% / 84%);
   width: 100%;
