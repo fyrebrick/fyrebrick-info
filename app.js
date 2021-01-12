@@ -22,6 +22,9 @@ app.get('/', (req, res) => {
 app.get('/privacy-policy',(req,res)=>{
   res.render('privacy-policy');
 })
+app.get('/cookie-policy',(req,res)=>{
+  res.render('cookie-policy');
+})
 
 io.on('connection', (socket) => {
   console.log('a user connected');
